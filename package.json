@@ -1,0 +1,17 @@
+{
+  "name": "exercise-scraper",
+  "version": "1.0.0",
+  "description": "Simple web scraper to get all exercises from FitGurlMel.com",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node scraper/index.js"
+  },
+  "author": "Lawrence Bass",
+  "license": "ISC",
+  "dependencies": {
+    "algoliasearch": "^3.33.0",
+    "dotenv": "^8.0.0",
+    "puppeteer": "^1.15.0"
+  }
+}
